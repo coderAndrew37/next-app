@@ -8,7 +8,9 @@ interface Props {
   };
 }
 
-const UsersPage = async ({ searchParams: { sortOrder } }: Props) => {
+const UsersPage = async ({ searchParams }: Props) => {
+  const { sortOrder } = await searchParams; // Destructure after receiving the object
+
   return (
     <>
       <h1>Users</h1>
