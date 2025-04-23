@@ -17,3 +17,22 @@ body {
   color: rgb(var(--foreground-rgb));
   padding: 1rem;
 }
+/* Applying Tailwind CSS classes  Globally */
+@layer components {
+  .btn {
+    @apply bg-gradient-to-b from-[#d6dbdc] to-[#ffffff];
+  }
+}
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-b from-[#d6dbdc] to-[#ffffff];
+  }
+}
+@layer base {
+  h1 {
+    @apply text-3xl font-bold mb-3;
+  }
+  h2 {
+    @apply text-2xl font-bold;
+  }
+}
