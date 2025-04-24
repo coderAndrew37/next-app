@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@prisma/client": "^6.6.0",
     "@tailwindcss/postcss": "^4.1.4",
     "@types/node": "22.14.1",
     "@types/react": "19.1.2",
@@ -19,10 +20,12 @@
     "fast-sort": "^3.4.1",
     "next": "15.3.1",
     "postcss": "^8.5.3",
+    "prisma": "^6.6.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "tailwindcss": "^4.1.4",
-    "typescript": "5.8.3"
+    "typescript": "5.8.3",
+    "zod": "^3.24.3"
   },
   "devDependencies": {
     "daisyui": "^5.0.27"
