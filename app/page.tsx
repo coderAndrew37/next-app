@@ -9,7 +9,7 @@ export default async function Home() {
       <div>
         <h1>
           Hello {session ? session?.user?.name : "User"}
-          <span>Welcome to our agency!</span>
+          <span className="ml-4">Welcome to our agency!</span>
         </h1>
         <p>
           We are glad to have you here. Explore our services and products to

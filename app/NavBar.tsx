@@ -21,7 +21,10 @@ const NavBar = () => {
           <span className="loading loading-spinner text-accent"></span>
         )}
         {status === "authenticated" ? (
-          <p>{session?.user?.name}</p>
+          <div>
+            <p>{session?.user?.name}</p>
+            <Link href="/api/auth/signout">Sign Out</Link>
+          </div>
         ) : (
           <Link href="/api/auth/signin">Sign In</Link>
         )}
