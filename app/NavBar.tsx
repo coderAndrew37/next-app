@@ -12,6 +12,7 @@ const NavBar = () => {
         <Link href="/about">About</Link>
         <Link href="/admin">Admin</Link>
         <Link href="/users">Users</Link>
+        <Link href="/api/auth/signin">Sign In</Link>
       </div>
     </div>
   );
